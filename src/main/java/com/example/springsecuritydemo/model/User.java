@@ -1,4 +1,4 @@
-package com.example.demosecurity.model;
+package com.example.springsecuritydemo.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

@@ -1,10 +1,17 @@
-package com.example.demosecurity.dto;
+package com.example.springsecuritydemo.dto;
 
-public class UserRequest {
+public class UserResponse {
 
     private String username;
     private String displayName;
-    private String password;
+
+    public UserResponse() {
+    }
+
+    public UserResponse(String username, String displayName) {
+        this.username = username;
+        this.displayName = displayName;
+    }
 
     public String getUsername() {
         return username;
@@ -20,13 +27,5 @@ public class UserRequest {
 
     public void setDisplayName(String displayName) {
         this.displayName = displayName;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
     }
 }

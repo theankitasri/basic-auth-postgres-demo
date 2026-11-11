@@ -1,6 +1,6 @@
-package com.example.demosecurity.repository;
+package com.example.springsecuritydemo.repository;
 
-import com.example.demosecurity.model.User;
+import com.example.springsecuritydemo.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User, String> {

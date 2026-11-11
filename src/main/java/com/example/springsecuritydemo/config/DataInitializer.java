@@ -1,7 +1,7 @@
-package com.example.demosecurity.config;
+package com.example.springsecuritydemo.config;
 
-import com.example.demosecurity.repository.UserRepository;
-import com.example.demosecurity.service.UserService;
+import com.example.springsecuritydemo.repository.UserRepository;
+import com.example.springsecuritydemo.service.UserService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

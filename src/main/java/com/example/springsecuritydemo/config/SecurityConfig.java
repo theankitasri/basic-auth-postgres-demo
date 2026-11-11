@@ -1,7 +1,7 @@
-package com.example.demosecurity.config;
+package com.example.springsecuritydemo.config;
 
-import com.example.demosecurity.model.User;
-import com.example.demosecurity.repository.UserRepository;
+import com.example.springsecuritydemo.model.User;
+import com.example.springsecuritydemo.repository.UserRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;

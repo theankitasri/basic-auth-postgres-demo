@@ -1,9 +1,9 @@
-package com.example.demosecurity.controller;
+package com.example.springsecuritydemo.controller;
 
-import com.example.demosecurity.dto.UserRequest;
-import com.example.demosecurity.dto.UserResponse;
-import com.example.demosecurity.model.User;
-import com.example.demosecurity.service.UserService;
+import com.example.springsecuritydemo.dto.UserRequest;
+import com.example.springsecuritydemo.dto.UserResponse;
+import com.example.springsecuritydemo.model.User;
+import com.example.springsecuritydemo.service.UserService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

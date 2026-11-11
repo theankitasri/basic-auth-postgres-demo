@@ -1,4 +1,4 @@
-package com.example.demosecurity.controller;
+package com.example.springsecuritydemo.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
