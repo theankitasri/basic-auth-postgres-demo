@@ -1,0 +1,10 @@
+target/
+probe/
+.env
+.idea/
+
+# application.properties holds your real DB password - ignore it
+src/main/resources/application.properties
+
+# put a sample config in the repo instead
+src/main/resources/application.properties.example
